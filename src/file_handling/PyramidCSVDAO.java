@@ -24,6 +24,7 @@ public class PyramidCSVDAO implements PyramidInter {
             BufferedReader bufferedReader = new BufferedReader(fr);
             String line;
             bufferedReader.readLine();
+            //bufferedReader.readLine();
             while ((line = bufferedReader.readLine()) != null) {
                 pyramids.add(createPyramid(line.split(";")));
             }

@@ -47,7 +47,7 @@ public class Pyramid {
     }
     @Override
     public String toString(){
-        String info = "pharaoh's name " + this.pharaoh +" modern name "+ this.modern_name +" site "+ this.site +" height "+ Double.toString(height);
+        String info = "pharaoh's name: " + this.pharaoh +", modern name: "+ this.modern_name +", site: "+ this.site +", height: "+ Double.toString(height);
         return info;
     }
     
